@@ -49,7 +49,7 @@ print("Hello World")
   ---
 
   #### Useful Links
-- [Github](https://github.com/)
+- [GitHub](https://github.com/)
 - [MyStevens](https://login.stevens.edu/login/login.htm?fromURI=%2Fapp%2FUserHome)
 
 
