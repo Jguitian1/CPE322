@@ -6,30 +6,30 @@ This is a course repository for EE322
 
 This repo contains the necessary materials and resources for the course
 
-*Example of Italic Text*
+*Example of Italic Text: Hi! My name is Joseph Guitian and my hobbies include playing video games and watching baseball.*
 
-**Example of Bold Text**
+**Example of Bold Text: My full name is Joseph Philip Guitian. Both my first name and middle name is after both of my parents fathers!**
 
 > Example of Block Quote:
 >
-> "Example Quote"
+> Example Quote: "Just doing as well as you did last time is not good enough" - Michael Jackson. 
 
 
 ### List Examples:
 
-#### Unordered List
-- 1
-- 2
-- 3
-- 4
-- 5
+#### Unordered List of my favorite sodas
+- Sprite
+- Coke
+- Root Beer
+- Mountain Dew
+- Gingerale
 
-#### Ordered List
-1. First
-2. Second
-3. Third
-4. Fourth
-5. Fifth
+#### Ordered List of my favorite Movies:
+1. Star Wars: The Empire Strikes Back
+2. Indiana Jones
+3. The Matrix
+4. Happy Gilmore
+5. The Lego Movie
 
 ### Code
 
