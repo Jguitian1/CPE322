@@ -1,6 +1,6 @@
-# EE322 
+# CPE322 
 
-This is a course repository for EE322 
+This is a course repository for CPE322 which is a child of the EE322 Canvas Shell for Stevens Institute of Technology
 
 ## Intro
 
