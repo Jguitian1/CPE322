@@ -1,6 +1,6 @@
 # CPE322 
 
-This is a course repository for CPE322 which is a child of the EE322 Canvas Shell for Stevens Institute of Technology
+This is a course repository for CPE322 which is a child of the EE322 Canvas Shell for Stevens Institute of Technology. Each lab folder contains the information required to complete each lab for this course.
 
 ## Intro
 
