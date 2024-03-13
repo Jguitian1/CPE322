@@ -112,7 +112,7 @@ _=/usr/bin/env
 
 **Description:** Report a snapshot of the current processes.
 
-**Commandd:** 'ps'
+**Command:** 'ps'
 
 **Output:**
 ```
@@ -127,7 +127,7 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** Outputs the current working directory.
 
-**Commandd:** 'pwd'
+**Command:** 'pwd'
 
 **Output:**
 ```
@@ -139,107 +139,200 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** Clones a remote git repository.
 
-**Commandd:** 'git clone <remote_repo_url>'
+**Command:** 'git clone <remote_repo_url>'
 
-**Output:**
-
+**Output:**  
+cloning into https://github.com/kevinwlu/iot:
+```
+remote: Enumerating objects: 22769, done.
+remote: Counting objects: 100% (3818/3818), done.
+remote: Compressing objects: 100% (1131/1131), done.
+remote: Total 22769 (delta 2154), reused 3767 (delta 2113), pack-reused 18951
+Receiving objects: 100% (22769/22769), 28.71 MiB | 30.69 MiB/s, done.
+Resolving deltas: 100% (14853/14853), done.
+Updating files: 100% (399/399), done.
+```
 
 
 ## cd <folder>
 
 **Description:** Changes the current working directory.
 
-**Commandd:** 'cd <folder>'
-
+**Command:** 'cd <folder>'
+```
+cd iot
+```
 **Output:** 
-
-
+Previous dir:
+C:\msys64\home\Joeyc
+New dir:
+```
+C:\msys64\home\Joeyc\iot
+```
 
 ## ls
 
 **Description:** Lists the contents of the current working directory.
 
-**Commandd:** 'ls'
-
+**Command:** 'ls'
+running command in iot dir
 **Output:**
-
+```
+README.md  economics  lesson1   lesson3  lesson6  lesson9   special_problems  tools
+apps       health     lesson10  lesson4  lesson7  make      standards
+cases      hype       lesson2   lesson5  lesson8  projects  systems
+```
 
 
 ## df
 
 **Description:** Report file system disk space usage.
 
-**Commandd:** 'df'
+**Command:** 'df'
 
 **Output:**
-
+```
+Filesystem      1K-blocks       Used Available Use% Mounted on
+C:/msys64      1952852988 1596271572 356581416  82% /
+```
 
 
 ## mkdir <folder>
 
 **Description:** Makes an empty folder at the specified path.
 
-**Commandd:** 'mkdir <folder>'
+**Command:** 'mkdir <folder>'
 
-**Output:**
+**Output:**  
+After making dir called "test_mkdir" and running ls the new output is located where mkdir was run
+```
+mkdir test_mkdir
 
+Joeyc@JoePC MINGW64 ~
+$ ls
+GrailGUI  iot  test_mkdir
 
+```
 
 ## nano <file>
 
 **Description:** Opens the nano text editor for the specified file.
 
-**Commandd:** 'nano <file>'
+**Command:** 'nano <file>'  
 
+in iot/lesson1 folder, ran this commmand 'nano my_ip.py'  
 **Output:**
-
+```
+import socket
+import smtplib
+from email.mime.text import MIMEText
+to = 'RECIPIENT_EMAIL' # Email to send to
+gmail_user = 'GMAIL_USERNAME' # Email to send from (MUST BE GMAIL)
+gmail_password = 'GOOGLE_APP_PASSWORD' # Turn on 2-Step Verification and generate 16-digit App Pass>
+smtpserver = smtplib.SMTP('smtp.gmail.com', 587)
+smtpserver.ehlo()
+smtpserver.starttls()
+smtpserver.ehlo()
+smtpserver.login(gmail_user, gmail_password)
+ipaddr = socket.gethostbyname(socket.gethostname())
+my_ip = 'HOSTNAME IP address is %s' % ipaddr # Change HOSTNAME
+msg = MIMEText(my_ip)
+msg['Subject'] = 'IP address for HOSTNAME' # Change HOSTNAME
+msg['From'] = gmail_user
+msg['To'] = to
+smtpserver.sendmail(gmail_user, [to], msg.as_string())
+smtpserver.quit()
+```
 
 
 ## cat <files...>
 
 **Description:** Concatenates files and prints them to standard output.
 
-**Commandd:** 'cat <files...>'
-
+**Command:** 'cat <files...>'  
+in iot/lesson1 folder, ran this commmand 'cat my_ip.py'  
 **Output:**
-
-
+```
+import socket
+import smtplib
+from email.mime.text import MIMEText
+to = 'RECIPIENT_EMAIL' # Email to send to
+gmail_user = 'GMAIL_USERNAME' # Email to send from (MUST BE GMAIL)
+gmail_password = 'GOOGLE_APP_PASSWORD' # Turn on 2-Step Verification and generate 16-digit App Password
+smtpserver = smtplib.SMTP('smtp.gmail.com', 587)
+smtpserver.ehlo()
+smtpserver.starttls()
+smtpserver.ehlo()
+smtpserver.login(gmail_user, gmail_password)
+ipaddr = socket.gethostbyname(socket.gethostname())
+my_ip = 'HOSTNAME IP address is %s' % ipaddr # Change HOSTNAME
+msg = MIMEText(my_ip)
+msg['Subject'] = 'IP address for HOSTNAME' # Change HOSTNAME
+msg['From'] = gmail_user
+msg['To'] = to
+smtpserver.sendmail(gmail_user, [to], msg.as_string())
+smtpserver.quit()
+```
 
 ## cp <file1> <file2>
 
 **Description:** Copies files from one location to another.
 
-**Commandd:** 'cp <file1> <file2>'
 
+**Command:** 'cp <file1> <file2>'  
+Ran this specific command 'cp my_ip.py ..'  
+this was intended to copy 'my_ip.py to the previous working dir'  
 **Output:**
-
+```
+README.md  economics  lesson1   lesson3  lesson6  lesson9   projects          systems
+apps       health     lesson10  lesson4  lesson7  make      special_problems  tools
+cases      hype       lesson2   lesson5  lesson8  my_ip.py  standards
+```
 
 
 ## mv <file1> <file2>
 
 **Description:** Moves files from one location to another.
 
-**Commandd:** 'mv <file1> <file2>'
+**Command:** 'mv <file1> <file2>'  
+Command used here: 'mv architecture.png ..'  
 
-**Output:**
-
+**Output:**  
+The file located in lesson1 dir is now in iot dir as per this ls:  
+```
+$ ls
+README.md         cases      hype      lesson2  lesson5  lesson8  my_ip.py        standards
+apps              economics  lesson1   lesson3  lesson6  lesson9  projects        systems
+architecture.png  health     lesson10  lesson4  lesson7  make     special_problems  tools
+```
 
 
 ## rm <files...>
 
 **Description:** Removes files or directories.
 
-**Commandd:** 'rm <files...>'
+**Command:** 'rm <files...>'  
+Command being run 'rm test_mkdir/test_rm.txt'  
+The test_rm.txt file inside of test_mkdir will be erased   
+**Output:**  
+After removing the file you can see that the ls inside of the dir is empty
+```
+Joeyc@JoePC MINGW64 ~
+$ cd test_mkdir/
 
-**Output:**
+Joeyc@JoePC MINGW64 ~/test_mkdir
+$ ls
 
+Joeyc@JoePC MINGW64 ~/test_mkdir
+$
+```
 
 
 ## clear
 
 **Description:** Clears the terminal's screen.
 
-**Commandd:** 'clear'
+**Command:** 'clear'
 
 **Output:**
 
@@ -249,7 +342,7 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** 'Opens the system manual for the specified program.'
 
-**Commandd:** 'man <command>'
+**Command:** 'man <command>'
 
 **Output:**
 
@@ -259,7 +352,7 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:**  Prints system information.
 
-**Commandd:** 'uname'
+**Command:** 'uname'
 
 **Output:**
 
@@ -269,7 +362,7 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** Configures or displays network interface parameters.
 
-**Commandd:** 'ifconfig'
+**Command:** 'ifconfig'
 
 **Output:**
 
@@ -279,7 +372,7 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** Sends ICMP ECHO_REQUEST packets to network hosts.
 
-**Commandd:** 'ping <ip>'
+**Command:** 'ping <ip>'
 
 **Output:**
 
@@ -289,6 +382,6 @@ PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
 
 **Description:** Prints network connections, routing tables, and other network interface statistics.
 
-**Commandd:** netstat
+**Command:** netstat
 
 **Output:**
