@@ -26,4 +26,70 @@ If I were to create my own script from scratch and didn't know what packages to 
 
 ![image5.png](image5.png)  
 
+## Script outputs
 
+### address.py
+
+```auto
+
+```  
+
+### battery.py
+
+```auto
+
+```  
+
+### acoordinates.py
+
+```auto
+
+```  
+
+### cpu.py
+
+```auto
+
+```  
+
+### date_example.py
+
+```auto
+
+```  
+
+### datetime_example.py
+
+```auto
+
+```  
+
+### documentstats.py
+
+```auto
+
+```  
+
+### julian.py
+
+```auto
+
+```  
+
+### moon.py
+
+```auto
+
+```  
+
+### sun.py
+
+```auto
+
+```  
+
+### time_example.py
+
+```auto
+
+```  
