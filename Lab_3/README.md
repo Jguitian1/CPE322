@@ -28,6 +28,11 @@ If I were to create my own script from scratch and didn't know what packages to 
 
 ## Script outputs
 
+Before I can implement my script parameters, in PyCharm I have to go to the dropdown menu of my file and edit them as I would in a console, or else the script will recieve an error that there were no system arguments  
+
+![image6.png](image6.png)  
+
+
 ### address.py
 
 ```auto
