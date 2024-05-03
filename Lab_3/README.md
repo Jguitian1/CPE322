@@ -1,3 +1,3 @@
-# Lab 03: Python Basics
+# Lab 03 - Python Basics
 
 
