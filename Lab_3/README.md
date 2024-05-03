@@ -18,12 +18,12 @@ In this case, where the files are already made for me, including the imports, I 
 
 As it is good to know how to use a terminal based package manager, installing packages this way is significantly easier for the sake of running basic Python Scripts. The image below shows where you can locate the packages you already have installed in the project directory
 
-![image3.png](Image3.png)  
+![image3.png](image3.png)  
 
 If I were to create my own script from scratch and didn't know what packages to install based on the red error lines, I would click on the settings button on the top right of PyCharm, select my project, go to Python Interpreter, and then press the "+" sign and search for the specific package I need. I can also view my installed packages here as well.  
 
-![image4.png](Image4.png)  
+![image4.png](image4.png)  
 
-![image5.png](Image5.png)  
+![image5.png](image5.png)  
 
 
