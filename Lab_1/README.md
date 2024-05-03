@@ -14,6 +14,8 @@ After initiating the project I selected the necessary files as my sources. This 
 
 ![Image2.png](image2.png)  
 
+## Simulations
+
 Below is what Vivado looks like once the project has been fully initiated. Within the sources window you can edit the code in your source files  
 
 ![Image3.png](image3.png)  
