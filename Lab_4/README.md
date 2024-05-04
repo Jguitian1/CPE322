@@ -22,7 +22,7 @@ Screenshot of the added temperature data in Hoboken
 
 Here is a screenshot from my desktop going to the other server with the Google Maps API. I did not want to put my credit card into Google to access the API key
 
-![Image.png](image5.png)  
+![Image.png](image51.png)  
 
 ## MyCPU Project
 
