@@ -94,3 +94,25 @@ Below are the initial commands to make sure Python3 is installed
 
 ![Image1.png](image20.png)  
 
+
+## Socket Server
+
+![Image1.png](image21.png)  
+
+Labs 3B through 3D require a breadboard and I do not have one
+
+# Lab 3E: PyPy
+
+![Image1.png](image22.png)  
+
+# Lab 3F: Doxygen
+
+
+![Image1.png](image23.png)  
+
+
+
+
+
+
+
