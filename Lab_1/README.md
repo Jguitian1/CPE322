@@ -24,7 +24,6 @@ I changed the hostname from raspberrypi to joepi just to make it easier to type 
 
 Regarding changing the network at boot setting, it was not available under those preferences, but I would not want to do that anyway, since I am using a headless setup and would like to have access right away.  
 
-![Image5.png](image5.png)  
 
 ![Image6.png](image6.png)  
 
