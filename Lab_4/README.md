@@ -2,7 +2,7 @@
 
 Lab 4 aims to teach the basics of Django and Flask web frameworks for Python.
 
-## SStevens Project  
+## Stevens Project  
 
 After installing the necessary packages and starting the stevens project below is what setting up the database on the raspberry pi looks like:
 
