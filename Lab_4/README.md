@@ -18,7 +18,7 @@ Here is a screenshot of the VNC where I connected to the server and see the admi
 
 Screenshot of the added temperature data in Hoboken
 
-![Image.png](image4.png)  
+![Image.png](image45.png)  
 
 Here is a screenshot from my desktop going to the other server with the Google Maps API. I did not want to put my credit card into Google to access the API key
 
