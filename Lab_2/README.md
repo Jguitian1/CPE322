@@ -4,7 +4,7 @@ Note* the original command was actually in boot/firmware and not just boot. And 
 
 ![Image1.png](image1.png)  
 
-For the command `minicom -b 115200 -o -D /dev/ttyS0`, I had to put sudo in front of it in my ssh for it to run. 
+For the command `minicom -b 115200 -o -D /dev/ttyS0`, I had to put sudo in front of it in my ssh for it to run, meaning my ssh does not have * permissions in my device. 
 
 ![Image2.png](image2.png)  
 
