@@ -73,5 +73,67 @@ For this file, I recieved an error, likely due to depreciation. I had to change 
 
 ## Histograms, box plots, regression, and interpolation
 
+### Scatter_demo.py
+![image](image22.png)  
+
+### Histogram_demo_features.py
+![image](image23.png)  
+
+### pyplot_text.py
+![image](image24.png)  
+
+### histogram_demo_extended.py
+![image](image25.png)  
+
+### boxplot_demo.py
+![image](image26.png)  
+
+### linreg.py
+![image](image27.png)  
+
+### interpolation.py
+![image](image28.png)  
+
+
+## Classification, cross-validation (CV), and support-vector machine (SVM)
+
+### plot_lda.py
+![image](image29.png)  
+
+### plot_lda_qda.py
+Had to correct ellipse arguments here: 
+`angle = np.arctan2(u[1], u[0])  # using arctan2 instead of arctan
+    angle = np.degrees(angle)  # converting radians to degrees
+    ell = mpl.patches.Ellipse(mean, 2 * np.sqrt(v[0]), 2 * np.sqrt(v[1]),
+                              angle, color=color, edgecolor='yellow', linewidth=2, zorder=2)`
+![image](image30.png)  
+
+### plot_cv_predict.py
+![image](image31.png)  
+
+### plot_cv_diabetes.py
+![image](image32.png)  
+
+### traffic.py
+![image](image33.png)  
+
+## Keras and TensorFlow
+
+
+### keras_diabetes.py
+Here I had to set the envirnment variable `PYTHONENCODING` to this: `PYTHONIOENCODING=utf-8`
+![image](image34.png)  
+
+### keras_first_network.py
+![image](image35.png)  
+
+## Titanic example
+
+### titanic_1.py
+![image](image36.png)  
+
+### titanic_2.py
+![image](image37.png)  
+
 
 
