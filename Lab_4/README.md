@@ -52,6 +52,6 @@ Lastly for this project, below is me connecting to the server from another clien
 
 Flask Hello_World.py
 
-![Image.png](image11.png)  
+![Image.png](image12.png)  
 
 
