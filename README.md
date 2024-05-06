@@ -3,7 +3,7 @@
 This is a course repository for CPE322 which is a child of the EE322 Canvas Shell for Stevens Institute of Technology. Each lab folder contains the information required to complete each lab for this course.
 
 ## Labs
-* [Lab 1](/lab_1): Overview
+* [Lab 1](/Lab_1): Overview
 * [Lab 2](/lab_2): Raspberry Pi
 * [Lab 3](/lab_3): Python
 * [Lab 4](/lab_4): Django and Flask
