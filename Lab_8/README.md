@@ -135,5 +135,21 @@ Here I had to set the envirnment variable `PYTHONENCODING` to this: `PYTHONIOENC
 ### titanic_2.py
 ![image](image37.png)  
 
+## Lab 8B: Data Analysis
+
+### plt_final.py
+
+![image](image38.png)  
+![image](image39.png)  
+![image](image40.png)  
+![image](image41.png)  
+![image](image42.png)  
+![image](image43.png)  
+
+### plt_cv2.py
+
+![image](image44.png)  
+
+
 
 
