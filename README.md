@@ -13,6 +13,8 @@ This is a course repository for CPE322 which is a child of the EE322 Canvas Shel
 * [Lab 8](/Lab_8): Data Analysis
 * [Lab 9](/Lab_9): YANG and Qiskit
 * [Lab 10](Lab_10): Blockchain
+* [Previous Labs](Previous_Labs): I accidentally worked on last semesters labs at first, instead of removing them, I added them here
+
 
 ## Intro
 
