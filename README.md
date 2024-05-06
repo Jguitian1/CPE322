@@ -22,7 +22,7 @@ This repo contains the necessary materials and resources for the course
 
 *Example of Italic Text: Hi! My name is Joseph Guitian and my hobbies include playing video games and watching baseball.*
 
-**Example of Bold Text: My full name is Joseph Philip Guitian. Both my first name and middle name is after both of my parents fathers!**
+**Example of Bold Text: My full name is Joseph Philip Guitian. Both my first name and middle name is after both of my parents' fathers!**
 
 > Example of Block Quote:
 >
