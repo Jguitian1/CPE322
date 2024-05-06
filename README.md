@@ -2,6 +2,18 @@
 
 This is a course repository for CPE322 which is a child of the EE322 Canvas Shell for Stevens Institute of Technology. Each lab folder contains the information required to complete each lab for this course.
 
+## Labs
+* [Lab 1](/lab_1): Overview
+* [Lab 2](/lab_2): Raspberry Pi
+* [Lab 3](/lab_3): Python
+* [Lab 4](/lab_4): Django and Flask
+* [Lab 5](/lab_5): Paho and Crossbar.io
+* [Lab 6](/lab_6): Alternative Devices
+* [Lab 7](/lab_7): Cloud Platforms
+* [Lab 8](/lab_8): Data Analysis
+* [Lab 9](/lab_9): YANG and Qiskit
+* [Lab 10](/lab_10): Blockchain
+
 ## Intro
 
 This repo contains the necessary materials and resources for the course
